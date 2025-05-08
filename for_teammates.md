@@ -26,8 +26,8 @@ py -3.13 -m venv .venv
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned #для запуска скриптов
 
 .\.venv\Scripts\Activate.ps1
-Установка основных библиотек для работы
-pip install python-telegram-bot requests beautifulsoup4 deepseek googletrans==4.0.0-rc1 nltk python-dotenv
+
+pip install python-telegram-bot requests beautifulsoup4 deepseek googletrans==4.0.0-rc1 nltk python-dotenv #Установка основных библиотек для работы
 
 pip freeze > requirements.txt #сохраним в отдельный файл настройки среды
 
