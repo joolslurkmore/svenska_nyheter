@@ -34,7 +34,13 @@ pip freeze > requirements.txt #сохраним в отдельный файл �
 git init #инициаилизация
 git add .
 
+git remote add origin https://github.com/joolslurkmore/svenska_nyheter.git
+git remote -v
 
+git fetch origin
+git merge origin/main --allow-unrelated-histories
+git add .
+git commit
 ```
 
 `python-telegram-bot` для работы с Telegram API
